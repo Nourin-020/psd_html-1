@@ -27,10 +27,11 @@ h1{
 }
 h2{
     font-weight:700;
-    font-size:2.25rem;
+    font-size:3.25rem;
     text-transform: capitalize;
     font-family:var(--secondary-font);
     color:var(--text-color);
+    letter-spacing: 3px;
     line-height:3rem;
 }
 h4{
@@ -260,4 +261,88 @@ transform: translateY(-39%) rotate(360deg);
 }
 #amazing-dancer .row{
     height: 934px;
+}
+/* Our Statistics */
+.statistics{
+    width:100%;
+    background:var(--secondary-color) no-repeat center;
+    background-size:cover;
+}
+/* Counter Section */
+.counter-section{
+    padding:2.5rem 0;
+}
+.counter-section p{
+    color: var(--text-color);
+}
+/* Herbert Section */
+.herbert{
+    width:100%;
+    height:956px;
+    background:url('../images/dancer-6.jpg') no-repeat center;
+    background-size:cover;
+}
+.herbert p{
+    font-size: 28px;
+    line-height: 2.75rem;
+    margin-top:30%;
+}
+.herbert h2{
+    line-height: 6.75rem;
+}
+/* Newsletter  */
+.newsletter{
+    width:100%;
+    margin:0 auto;
+    background:var(--primary-color) no-repeat center;
+    background-size:cover;
+}
+.newsletter .form-control{
+    height: 3.225rem;
+    padding: 0px 3.25rem;
+    margin-left: 32%;
+    font-size: 21px;
+    background: white;
+    width: 62%;
+    border: none;
+    border-radius: 0;
+    background: white;
+    border: 0.1875rem solid var(--text-gray);
+    color: var(--text-color);
+    font-weight: 500;
+}
+.newsletter .form-control:hover,
+.newsletter .form-control:focus{
+outline:none;
+box-shadow:none;
+border-color:var(--primary-color);
+}
+.newsletter .common-btn{
+    border-radius:0px;
+    font-size:25px;
+    margin-left: -79px;
+}
+/* Footer Section Start */
+#footer{
+    width:100%;
+    padding:33px;
+    margin:0 auto;
+    background:var(--secondary-color) no-repeat center;
+    background-size:cover;
+
+}
+.social i{
+    background:var(--text-color);
+    font-size:35px;
+    padding:16px;
+    margin-right:10px;
+    border-radius: 50%;
+}
+#footer ul li a{
+    color:var(--text-color);
+    letter-spacing:2px;
+}
+#footer h2{
+    margin-bottom:31px;
+    font-size:2.25rem;
 }
