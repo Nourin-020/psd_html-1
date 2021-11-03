@@ -37,7 +37,7 @@ h4{
     color:var(--text-color);
     font-family:var(--secondary-font);
     text-transform: capitalize;
-    font-size:18px;
+    font-size: 35px;
     font-weight: 800;
     margin-bottom:0.5rem;
 }
@@ -50,7 +50,7 @@ h5{
     margin-bottom:0.5rem;
 }
 p{
-    font-size: 1.4rem;
+    font-size: 22px;
     color:var(--text-color);
     font-weight:400;
     line-height:1.75rem;
@@ -85,11 +85,11 @@ p{
 
 }
 .wrapper{
-    padding-top:8.25rem;
-    padding-bottom:8.25rem;
+    padding-top:7.25rem;
+    padding-bottom:7.25rem;
 }
 .text-content{
-    width:70%;
+    width:68%;
     margin:auto;
 }
 /* **** Custom Scrollbar ****  */
@@ -200,4 +200,64 @@ transform: translateY(-39%) rotate(360deg);
     background-size:cover;
     padding: 16.875rem 0 9.375rem;
 
+}
+/* Dancer Tour */
+.dancer-tour{
+    width:100%;
+    background:var(--primary-color) no-repeat center;
+    background-size:cover;
+}
+.dancer-tour  .card .pt-3{
+    padding:0px 50px;
+    text-align:center;
+}
+/* Pricing */
+.pricing{
+    width:100%;
+    background:var(--secondary-color) no-repeat center;
+    background-size:cover;
+}
+.pricing  .card .pricing-text{
+    background:var(--primary-color);
+    padding:0px 50px;
+    color:var(--text-color);
+    text-align:center;
+    font-size: 100px;
+}
+.pricing  .card .pricing-text h4{
+    padding-top:54px;
+}
+.pricing  .card .pricing-text p{
+    margin-bottom:-34px;
+}
+/* Amazing and best dancer section */
+.amazing-dancer-img{
+    width:50%;
+    background:url('../images/dancer-4.jpg') no-repeat center;
+    background-size:cover;
+}
+.best-dancer-img{
+    width:50%;
+    background:url('../images/dancer-5.jpg') no-repeat center;
+    background-size:cover;
+}
+#amazing-dancer .amazing-dancer-text{
+    width:50%;
+    background:var(--primary-color) no-repeat center;
+    background-size:cover;
+}
+.amazing-dancer-text h2,.amazing-dancer-text p{
+    width: 88%;
+    padding-left: 12%;
+    line-height:38px;
+}
+.amazing-dancer-text h2{
+    padding-top: 43%;
+    padding-bottom:7%;
+}
+.amazing-dancer-text button{
+    margin-left:12%;
+}
+#amazing-dancer .row{
+    height: 934px;
 }
